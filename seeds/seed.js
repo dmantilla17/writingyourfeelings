@@ -1,6 +1,2 @@
-const sequelize= require('../config/connection')
-
-async const runSeeds(){
-    await sequelize.sync({force:true});
-    
-}
+const sequelize = require("../config/connection");
+const User = require("./User");
